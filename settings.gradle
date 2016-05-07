@@ -16,4 +16,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'noodle_timer'
+rootProject.name = 'rubber_ducking'

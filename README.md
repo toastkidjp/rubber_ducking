@@ -1,4 +1,10 @@
-Noodle Timer
+Rubber Ducking
 ====
 
-You can count the time.
+# Getting start
+
+```
+$ git clone https://github.com/toastkidjp/rubber_ducking.git
+$ gradle clean jar
+$ java -jar rubber_ducking.jar
+```
