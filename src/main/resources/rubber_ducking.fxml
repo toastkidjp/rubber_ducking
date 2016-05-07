@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefWidth="600.0" prefHeight="400.0" 
+  fx:controller="jp.toastkid.gui.jfx.rubberducking.Controller"
+  xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <HBox prefWidth="600.0" prefHeight="260.0">
+      <ScrollPane prefHeight="260.0" prefWidth="400.0">
+      <content>
+        <VBox fx:id="contents" minHeight="0.0" minWidth="0.0" prefWidth="597.0"/>
+       </content>
+     </ScrollPane>
+     <ImageView fx:id="image" preserveRatio="true" fitWidth="260.0" fitHeight="260.0" />
+   </HBox>
+   <HBox prefWidth="600.0" prefHeight="140.0">
+     <TextArea fx:id="text" prefWidth="500.0" prefHeight="140.0" promptText="Please input text." />
+     <VBox prefWidth="100.0">
+       <Button prefWidth="100.0" text="Post" onAction="#post" />
+       <Button prefWidth="100.0" text="Save" onAction="#save" />
+     </VBox>
+   </HBox>
+  </children>
+</VBox>
